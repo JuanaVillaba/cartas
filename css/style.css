@@ -1,3 +1,6 @@
+body{
+    background-color: pink;
+}
 .content-card{
     background-color:blanchedalmond;
     width: 500px;
@@ -9,6 +12,8 @@
 .top{
     display: flex;
     justify-content: start;
+    font-size: 800%;
+    margin-left: 5%;
 }
 h1{
     font-size: 1000%;
@@ -17,4 +22,7 @@ h1{
 .bottom{
     display: flex;
     justify-content: end;
+    font-size: 800%;
+    margin-right: 5%;
+    transform: scaleY(-1);
 }
